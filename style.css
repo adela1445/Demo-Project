@@ -1,0 +1,44 @@
+.hr {
+  border: none;
+  height: 0px;
+  border-top: 1px darkgray;
+}
+
+.Header {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.233);
+}
+
+.aliencat {
+  width: 200px;
+  height: 200px;
+}
+
+.hr {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.top {
+  width: 100%;
+  height: 30;
+}
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row: after {
+  content: "";
+  display: table;
+  clear: both;
+}
